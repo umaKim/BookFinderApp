@@ -33,15 +33,6 @@ class MainViewController: BaseViewController<MainViewModel> {
     }
     
     private func bind() {
-        contentView
-            .actionPublisher.sink { action in
-                switch action {
-                case .searchBarTextDidChange(let query):
-                    self.viewModel.getBook(of: query)
-                }
-            }
-            .store(in: &cancellables)
-        
         viewModel
             .notificationPublisher
             .sink {[weak self] noti in
