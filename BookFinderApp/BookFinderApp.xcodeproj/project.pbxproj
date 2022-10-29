@@ -22,6 +22,7 @@
 		35CAB06F290B8006005F20BA /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB06E290B8006005F20BA /* BaseView.swift */; };
 		35CAB071290B8113005F20BA /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB070290B8113005F20BA /* BaseViewModel.swift */; };
 		35CAB077290BD4F3005F20BA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB076290BD4F3005F20BA /* BaseViewController.swift */; };
+		35CAB080290C35BF005F20BA /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB07F290C35BF005F20BA /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
