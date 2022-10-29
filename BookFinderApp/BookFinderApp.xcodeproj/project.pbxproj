@@ -23,6 +23,7 @@
 		35CAB071290B8113005F20BA /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB070290B8113005F20BA /* BaseViewModel.swift */; };
 		35CAB077290BD4F3005F20BA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB076290BD4F3005F20BA /* BaseViewController.swift */; };
 		35CAB080290C35BF005F20BA /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB07F290C35BF005F20BA /* UIView+Ext.swift */; };
+		35CAB087290CE300005F20BA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB086290CE300005F20BA /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		35CAB070290B8113005F20BA /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		35CAB076290BD4F3005F20BA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		35CAB07F290C35BF005F20BA /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		35CAB086290CE300005F20BA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,6 +345,7 @@
 				35CAB077290BD4F3005F20BA /* BaseViewController.swift in Sources */,
 				35CAB071290B8113005F20BA /* BaseViewModel.swift in Sources */,
 				35CAB02D290B64F7005F20BA /* AppDelegate.swift in Sources */,
+				35CAB087290CE300005F20BA /* LoadingView.swift in Sources */,
 				35CAB02F290B64F7005F20BA /* SceneDelegate.swift in Sources */,
 				35CAB06F290B8006005F20BA /* BaseView.swift in Sources */,
 			);
