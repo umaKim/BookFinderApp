@@ -13,7 +13,7 @@ enum DetailViewModelNotification: Notifiable {
 
 class DetailViewModel: BaseViewModel<DetailViewModelNotification> {
     
-    private let book: Book
+    private(set) var book: Book
     
     init(_ book: Book) {
         self.book = book
