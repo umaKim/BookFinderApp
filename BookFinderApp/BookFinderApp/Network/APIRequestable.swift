@@ -57,7 +57,7 @@ extension APIRequestable {
 }
 
 protocol BookFinderAppAPIRequestable: APIRequestable {
-    func getBook(of title: String) -> AnyPublisher<BookResponse, APIError>
+    func getBook(of title: String, page: Int) -> AnyPublisher<BookResponse, APIError>
 }
 
 extension BookFinderAppAPIRequestable {

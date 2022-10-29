@@ -16,7 +16,11 @@ class MainViewModel: BaseViewModel<MainViewModelNotification> {
     
     private(set) var books: [Book] = []
     
+    private var page = 0
+    
     private let network: BookFinderAppAPIRequestable
+    
+    private var isSearching: Bool = false
     
     init(
         _ network: BookFinderAppAPIRequestable = NetworkService()
@@ -25,22 +29,40 @@ class MainViewModel: BaseViewModel<MainViewModelNotification> {
         super.init()
     }
     
-    func getBook(of title: String) {
+    private var bookTitle: String = ""
+    
+    func setBookTitle(as title: String) {
+        self.bookTitle = title
+    }
+    
+    func getBook() {
+        isSearching = true
         isLoadingSubject.send(true)
         network
-            .getBook(of: title)
+            .getBook(of: bookTitle, page: page)
             .receive(on: DispatchQueue.main)
             .sink {[weak self] completion in
+                guard let self = self else {return }
                 switch completion {
                 case .finished: break
                 case .failure(let error):
-                    self?.errorSubject.send(error)
+                    self.errorSubject.send(error)
                 }
-                self?.isLoadingSubject.send(false)
+                self.isLoadingSubject.send(false)
+                self.isSearching = false
             } receiveValue: {[weak self] result in
-                self?.books = result.items
-                self?.notificationSubject.send(.fetchData(result.items))
+                guard let self = self else { return }
+                print(result.items)
+                self.books.append(contentsOf: result.items)
+                self.notificationSubject.send(.fetchData(self.books))
             }
             .store(in: &cancellables)
+    }
+    
+    func requestNextPage() {
+        if isSearching == false {
+            self.page += 1
+            self.getBook()
+        }
     }
 }

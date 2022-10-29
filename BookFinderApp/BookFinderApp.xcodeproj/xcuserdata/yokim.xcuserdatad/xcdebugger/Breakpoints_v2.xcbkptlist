@@ -24,15 +24,15 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FE682CA5-7B6B-4EC5-9937-7B4EA555EA3B"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookFinderApp/Core/Main/MainViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "getBook(of:)"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getBook()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -40,18 +40,20 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "3F1D35A5-7D8F-4DE0-8765-15ED4CBB6ECE"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookFinderApp/Core/Main/MainViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "getBook(of:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getBook()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+<<<<<<< Updated upstream
+=======
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
@@ -72,7 +74,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "3D0040D0-773B-49C4-8321-E0C577CBF271"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BookFinderApp/Core/Detail/DetailViewController.swift"
@@ -132,5 +134,6 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+>>>>>>> Stashed changes
    </Breakpoints>
 </Bucket>
