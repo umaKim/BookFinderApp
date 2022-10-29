@@ -1,0 +1,854 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 844,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "Beu0CAAAQBAJ",
+            "etag": "9Z0Mrh30Iw4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Beu0CAAAQBAJ",
+            "volumeInfo": {
+                "title": "Digital Fashion 2015년 5월호 (월간)",
+                "subtitle": "패션과 IT의 만남을 리딩하라",
+                "authors": [
+                    "(주)리타미디어 편집부"
+                ],
+                "publisher": "(주)리타미디어",
+                "publishedDate": "2015-04-22",
+                "description": "IT를 아우르는 패션의 새로운 패러다임을 전하는 한국 최초 매거진 목차. 10 Editor's Letter CEO 인사말 14 Celebrity 창간 축하말 16 Digital Fashion History 웨어러블의 발자취 18 Cover Story 애플 워치 22 Digital Fashion 재킷의 진화 26 Fashion 나도 히어로가 될 수 있다 32 Digital Fashion Accessory 나에게 맞는 웨어러블 36 Digital Tip 내 스마트 워치 스마트하게 쓰기 38 Special 스마트 워치 진검 대결 44 K-people 점자 스마트 워치‘DOT’팀 / 라미엔느 이지영 대표 52 Digital Item 웨어러블 선물 BEST 10 54 Smart Review 블로거들의 솔직 사용후기(기어 S, G워치R) 58 Global Item 디지털패션 해외 제품 60 Spot 디지털 성지순례 62 Digital Tech 디지털패션 리더들의 필수 IT 상식 64 Smart Car 미래의 자동차 66 Beyond Digital Fashion IKEA HOME SMART 68 Beyond Digital Fashion2 TANGRAM SMART ROPE 70 Digital Fair 2015 MWC / 런웨이에서 선보인 IT 악세서리 76 Digital Fair 서울 국제 소싱 페어 / 스포엑스 2015 80 Tour ANYMODE 82 Digital View SKT가 바라보는 디지털패션 84 Digital Opinion 한국패션협회 86 Advertorial 명품패션가방 KNOMO",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 94,
+                "printType": "BOOK",
+                "categories": [
+                    "Design"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.2.1.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Beu0CAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Beu0CAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "ko",
+                "previewLink": "http://books.google.co.kr/books?id=Beu0CAAAQBAJ&pg=PA6&dq=digital&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Beu0CAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Beu0CAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 6000,
+                    "currencyCode": "KRW"
+                },
+                "retailPrice": {
+                    "amount": 5400,
+                    "currencyCode": "KRW"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=Beu0CAAAQBAJ&rdid=book-Beu0CAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 6000000000,
+                            "currencyCode": "KRW"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5400000000,
+                            "currencyCode": "KRW"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "KR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.co.kr/books/download/Digital_Fashion_2015%EB%85%84_5%EC%9B%94%ED%98%B8_%EC%9B%94%EA%B0%84-sample-pdf.acsm?id=Beu0CAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Beu0CAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Contents May2015 l Vol.1 Global Item Spot Digital Tech Smart Car 디지털패션 해외 제품 디지털 성지순례 디지털패션 리더들의 필수 IT 상식 미래의 자동차 64 62 60 58 Beyond Digital Fashion IKEA HOME SMART 66 Beyond Digital Fashion2 TANGRAM&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "ZjRqCgAAQBAJ",
+            "etag": "+OR7zNZYeAs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ZjRqCgAAQBAJ",
+            "volumeInfo": {
+                "title": "Digital Fashion 2015년 9월호",
+                "subtitle": "패션과 IT이 만남을 리딩하라!",
+                "authors": [
+                    "(주)리타미디어 편집부"
+                ],
+                "publisher": "(주)리타미디어",
+                "publishedDate": "2015-08-24",
+                "description": "IT를 아우르는 패션의 새로운 패러다임을 전하는 한국 최초 매거진 9월호 목차 p14 Cover Story 스마트 주얼리 트렐리(Trellie) p16 Digital Fashion스마트 가방 & 신발 p18 Digital Fashion Item 영화 속 디지털 패션 p20 Digital Life 환절기 건강 예방법 p22 Smart Diet 아직 끝나지 않은 다이어트 p24 Digital Item 독서 애호가를 위한 아이템 p26 Smart Item 생활이 편리해지는 아이템 p28 Smart Office 스마트 사무실 가젯 p30 Smart Tip 요리가 즐거워지는 주방 p32 New Item 해외 아이템 소개 p34 Special 한국의 웨어러블 p38 Smart Accessory 카메라의 진화 p40 K-People 쿠론 Glimm TF 팀 / KTTA 심명희 연구개발팀장 p44 Inside View공식으로 알아보는 남녀 사랑학개론 p46 Gadget for Music 음악 마니아를 위한 가젯 p48 Smart Car 여성운전자를 위한 가젯 p50 Talk to 디지털 패션 랩(Digital Fashion LAB) p52 Trend Item 호텔 부럽지 않은 욕실 꾸미기 p54 Digital Tip 정글의 법칙 - 서바이벌 가젯 p58 Trevel 인도 배낭 여행 p62 Shop 이색 디저트 열전 p64 Spot IT를 품은 문화공간 p70 Festival 9월의 페스티벌 p73 wearable expertise 웨어러블 전문가에게 배우다",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 94,
+                "printType": "BOOK",
+                "categories": [
+                    "Design"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.0.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ZjRqCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ZjRqCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "ko",
+                "previewLink": "http://books.google.co.kr/books?id=ZjRqCgAAQBAJ&pg=PA73&dq=digital&hl=&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ZjRqCgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZjRqCgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 6000,
+                    "currencyCode": "KRW"
+                },
+                "retailPrice": {
+                    "amount": 5400,
+                    "currencyCode": "KRW"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=ZjRqCgAAQBAJ&rdid=book-ZjRqCgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 6000000000,
+                            "currencyCode": "KRW"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5400000000,
+                            "currencyCode": "KRW"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "KR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.co.kr/books/download/Digital_Fashion_2015%EB%85%84_9%EC%9B%94%ED%98%B8-sample-pdf.acsm?id=ZjRqCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ZjRqCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "74 Digital Tech 78 Digital View 디지털, 패션 그리고 디지털 패션의 미래 휴대용 인터랙티브 장치 Big note 80 Beyond Digital Fashion Wearable 웨어러블 전문가에게 배우다! Expertise 82 84 86 Beyond Digital Fashion WearableTip Digital News&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "XlsyCgAAQBAJ",
+            "etag": "aCt22FepiyQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/XlsyCgAAQBAJ",
+            "volumeInfo": {
+                "title": "Digital Fashion 2015년 8월호",
+                "subtitle": "패션과 IT의 만남을 리딩하라!",
+                "authors": [
+                    "(주)리타미디어 편집부"
+                ],
+                "publisher": "(주)리타미디어",
+                "publishedDate": "2015-07-20",
+                "description": "IT를 아우르는 패션의 새로운 패러다임을 전하는 한국 최초 매거진 8월호 목차 p14 Cover Story 쿠론, 스마트백 1.0 글림 p16 Digital Fashion 다채로운 스마트 의류 p18 Digital Fashion Item 영화 속 가젯 이야기 p22 Digital Fashion Accessory 화려한 싱글 라이프를 위하여 p24 Digital Item 장마철 스마트한 아이템 p26 Smart Item 술을 즐기는 또 다른 방법 p28 Digital Tip 밤을 잊은 야근자를 위한 가젯 p30 Smart Tip 신기하고 재미있는 스마트 웨어러블 p32 Digital Sports 야구를 더욱 즐겁게 즐기는 방법 p36 New Item 스마트 주얼리 컬렉션 p38 Special 여름을 위한 가젯 p42 Festival 8월의 페스티벌 즐기기 p44 K-People 블랙야크 야크온 기획자 박정훈 부장 / 픽셀퍼즐 오현석 대표 p48 Smart Item 요즘 뜨는 스마트 워치 & 앱 p50 Talk to 디지털 패션 랩(Digital Fashion LAP) p52 Smart Car 내 차를 업그레이드해 줄 가젯 p54 Smart Review 웨어러블 사용 후기 p56 Spot 남성 키덜트를 위한 장소 p58 Travel 스페인(Kingdom of Spain) p62 Shop 맛집 입소문 로드 p64 Beyond Digital Fashion Intelligent Helmet p66 Digital Fair IoT Wearable Future 2015 p70 Digital Book e-북 리더기 모음 p75 wearable expertise 웨어러블 전문가에게 배우다",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 94,
+                "printType": "BOOK",
+                "categories": [
+                    "Design"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.0.0.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=XlsyCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=XlsyCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "ko",
+                "previewLink": "http://books.google.co.kr/books?id=XlsyCgAAQBAJ&pg=PA91&dq=digital&hl=&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=XlsyCgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=XlsyCgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 6000,
+                    "currencyCode": "KRW"
+                },
+                "retailPrice": {
+                    "amount": 5400,
+                    "currencyCode": "KRW"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=XlsyCgAAQBAJ&rdid=book-XlsyCgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 6000000000,
+                            "currencyCode": "KRW"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5400000000,
+                            "currencyCode": "KRW"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "KR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.co.kr/books/download/Digital_Fashion_2015%EB%85%84_8%EC%9B%94%ED%98%B8-sample-pdf.acsm?id=XlsyCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=XlsyCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "4.22~2016.4.21 서울시 강남구 영동대로 85길 20-7 543호 135-846 T. 070-4226-2537ᅵF. 02-6280-4621ᅵ디지털패션 편집부 1 8 3 4 5 6 새로운 패션의 트렌드를 여는 Digital Fashion August2015 l Vol.4 www.digitalfashion.co.kr Vol.4 6,900원 9&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Ib8TEAAAQBAJ",
+            "etag": "uN47cWi47Xw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Ib8TEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Digital Literacy Conference 2021",
+                "subtitle": "거인의 어깨 위에서 지식을 나누다",
+                "authors": [
+                    "에스더 워치츠키(Esther Wojcicki)",
+                    "이명희 서울방화초등학교 교사",
+                    "박세민 오산고등학교 사회교사",
+                    "전서진 서울정의여자중학교 1학년 학생",
+                    "김세진 네이버 학술정보팀 매니저",
+                    "권오현 코드포코리아 활동가",
+                    "신신애 NIA 공동데이터기획팀장"
+                ],
+                "publisher": "사단법인 디지털리터러시교육협회",
+                "publishedDate": "2021-01-14",
+                "description": "사단법인 디지털리터러시교육협회(CDL)가 매년 진행하는 디지털 리터러시 컨퍼런스의 2021년 주제는 '거인의 어깨 위에서 지식을 나누다'입니다. 2021년 컨퍼런스는 사단법인 코드와 공동 주관 및 주최, 열린민주당 강민정 국회의원과 미디어오늘 후원으로 진행되었습니다. 행사는 1,2부로 나뉘어 진행되었는데, 싱귤래리티 대학 교수이자, 캘리포니아 팔로 알토 고등학교 미디어 아트 프로그램 창립자인 에스더 워치츠키(Esther Wojcicki)가 1부 기조강연을 하였고, 이어서 이명희 방화초등학교 교사와 박세민 오산고등학교 사회교사가 지식나눔 수업 사례발표를 했습니다. 또한 전서진 서울정의여중 1학년 학생이 '유튜브로 배우는 디지털 학습'이란 주제로 발표를 하였고, 네이버 학술정보팀 김세진 매니저, 권오현 코드포코리아 활동가, 신신애 NIA 공공데이터기획팀장이 커먼즈 사례를 발표하였습니다. 지식나눔을 위하여 발표자료 모음집을 공유합니다.",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 98,
+                "printType": "BOOK",
+                "categories": [
+                    "Business & Economics"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.0.1.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Ib8TEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Ib8TEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "ko",
+                "previewLink": "http://books.google.co.kr/books?id=Ib8TEAAAQBAJ&pg=PT44&dq=digital&hl=&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Ib8TEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Ib8TEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 0,
+                    "currencyCode": "KRW"
+                },
+                "retailPrice": {
+                    "amount": 0,
+                    "currencyCode": "KRW"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=Ib8TEAAAQBAJ&rdid=book-Ib8TEAAAQBAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "KR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Ib8TEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "PBL X Digital 활동 중심 탐구 자기 관점 갖기 사회에 창의적 아 정보 협업 연구 결과 소통 관심 이디어 활용 활동 발표 + 디지털 기술 PBL X Digital 활동 중심 탐구 Digital PBL X Digital. 사례 2. 탐구 활동."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "rvqkCgAAQBAJ",
+            "etag": "JdEZJPLHa5k",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/rvqkCgAAQBAJ",
+            "volumeInfo": {
+                "title": "Digital Fashion 2105년 10월호",
+                "subtitle": "패션과 IT의 만남을 리딩하라!",
+                "authors": [
+                    "(주)리타미디어 편집부"
+                ],
+                "publisher": "(주)리타미디어",
+                "publishedDate": "2015-09-22",
+                "description": "패션을 아우르는 IT의 새로운 패러다임을 전하는 한국 최초 매거진 10월호 목차 p12 Cover Story HP 마이클 바스티안 크로노잉 스마트 워치 p14 Digital Fashion 아웃도어 하이테크 의류 & 아이템 p16 Smart Accessory 스마트한 남성을 위한 필수품 p18 Digital Fashion Item 영화와 애니메이션 속 디지털 패션 p20 Digital Beauty 아름다움을 가꾸어주는 뷰티 기기 p22 Digital Item 오 이런 제품이 있어? p24 나의 안전을 책임지는 사이버 보안관 p26 Trend Item 요가를 위한 하이테크 가젯 p28 Smart Item 대학 생활을 위한 가젯 p30 New Item 진화하는 웨어러블 디바이스 p32 Special 자전거 & 반려견과 함께하는 여행 p36 Smart Life 스마트 쿠킹 디바이스 p38 Digital Item 낭비 없는 마트 쇼핑을 위하여 p40 Hi-tech Item 진화하는 개인 이동수단 p42 K-People DnX 권은경 대표 p44 K-People 링크가가 정준선 대표 p46 그녀를 위한 바리스타 p48 Digital Life 가을 타는 남자를 위한 커피 가젯 p50 Shop 수준급 바리스타가 운영하는 커피숍 Best 4 p52 Smart Tip 나에게 어울리는 외장 배터리는? p54 이제는 스마트 펜이다 p58 Travel 아시아의 보석 홍콩으로 떠나자 p62 Smart Car 마이 카 가젯 & 앱 총출동 p64 Digital Tip 명절 스트레스 아웃, 행복한 추석 보내기 p66 Talk to 미래형 스마트 의류를 상상하다 p68 Smart Review 해외 출시 웨어러블 사용 후기 p70 Festival 10월의 페스티벌 p73 wearable expertise 웨어러블 전문가에게 배우다",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 94,
+                "printType": "BOOK",
+                "categories": [
+                    "Design"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.0.0.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=rvqkCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=rvqkCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "ko",
+                "previewLink": "http://books.google.co.kr/books?id=rvqkCgAAQBAJ&pg=PA73&dq=digital&hl=&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=rvqkCgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=rvqkCgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 6000,
+                    "currencyCode": "KRW"
+                },
+                "retailPrice": {
+                    "amount": 5400,
+                    "currencyCode": "KRW"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=rvqkCgAAQBAJ&rdid=book-rvqkCgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 6000000000,
+                            "currencyCode": "KRW"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5400000000,
+                            "currencyCode": "KRW"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "KR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.co.kr/books/download/Digital_Fashion_2105%EB%85%84_10%EC%9B%94%ED%98%B8-sample-pdf.acsm?id=rvqkCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=rvqkCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Expertise Digital Tech Digital View Beyond Digital Fashion Beyond Digital Fashion Fair Digital News 스마트홈(Smart Home) 패션업체와 IT와의 만남 이게 스피커라고? 이번에 스마트 컵이다 IT 액세서리 주변기기전 10월의 디지털 뉴스 74 76 80 82&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "KAnfCQAAQBAJ",
+            "etag": "MsA8TmPV4BY",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/KAnfCQAAQBAJ",
+            "volumeInfo": {
+                "title": "Addressing the Tax Challenges of the Digital Economy (Korean version)",
+                "subtitle": "(Korean version)",
+                "authors": [
+                    "OECD"
+                ],
+                "publisher": "OECD Publishing",
+                "publishedDate": "2015-06-12",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9789264236912"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "9264236910"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.1.1.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=KAnfCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=KAnfCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "ko",
+                "previewLink": "http://books.google.co.kr/books?id=KAnfCQAAQBAJ&pg=PA108&dq=digital&hl=&cd=6&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=KAnfCQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=KAnfCQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 0,
+                    "currencyCode": "KRW"
+                },
+                "retailPrice": {
+                    "amount": 0,
+                    "currencyCode": "KRW"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=KAnfCQAAQBAJ&rdid=book-KAnfCQAAQBAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "KR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.co.kr/books/download/Addressing_the_Tax_Challenges_of_the_Dig-sample-pdf.acsm?id=KAnfCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=KAnfCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "르면, 완전히 전자화된(dematerialized) 디지털 활동을 수행하는 기업이 다른 국가경제에 “중요한 디지털 실재(significant digital presence)”를 두고 있다면 그 기업은 그 국가에서 조세목적상 실재하는 것으로 간주될 수 있다."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "bhpyCQAAQBAJ",
+            "etag": "yBW0IoLav2o",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/bhpyCQAAQBAJ",
+            "volumeInfo": {
+                "title": "Digital Fashion 2015년 6월호",
+                "subtitle": "패션과 IT의 만남을 리딩하라",
+                "authors": [
+                    "(주)리타미디어 편집부"
+                ],
+                "publisher": "(주)리타미디어",
+                "description": "IT를 아우르는 패션의 새로운 패러다임을 전하는 한국 최초 매거진 목차. 14 Cover Story 알트루이스 스마트 주얼리 16 Digital Fashion IT를 머금은 가방 20 Digital Fashion Item 이제는 스마트 슈즈다 22 Smart Jewelry 웨어러블 주얼리 24 Digital Fashion Accessory 생활을 즐겁게 하는 웨어러블 28 Digital Item 숙면을 위한 또 하나의 방법 30 Global Item 해외여행을 즐겁게 해주는 IT기기 32 Global Wearable 글로벌 웨어러블 소식 34 Digital tip 요즘 뜨는 앱 & 게임 36 Smart Item 진화하는 충전기기 38 WEARABLE for PET / KIDS 반려동물, 키즈 전용 웨어러블 44 Special 스포츠는 이제 스마트 시대 48 Smart Tip 스마트 헬스 케어 50 K-People 제일모직 최훈 상무 & 김만희 과장 / 한국패션협회 이현학 팀장 54 smart car 자동차 웨어러블 & 액세서리 / 국내 자율주행 자동차와 자동주차 시스템 58 Smart Review 블로거의 웨어러블 사용 후기 60 Spot 색다른 데이트 장소 62 beyond Digital Fashion Copenhagen / Relit 66 Idea Item 워터클 68 Smart Education 가까운 미래 학교의 모습 70 Digital Fair 서울리빙디자인페어 / 2015 Health & Beauty Week 76 Digital Tech IoT와 O2O 바로 알기 78 IT + Wearable IT 전문가에게 듣는 웨어러블 84 Digital View KT가 바라보는 디지털패션",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 94,
+                "printType": "BOOK",
+                "categories": [
+                    "Design"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.1.0.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=bhpyCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=bhpyCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "ko",
+                "previewLink": "http://books.google.co.kr/books?id=bhpyCQAAQBAJ&pg=PA91&dq=digital&hl=&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=bhpyCQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=bhpyCQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 6000,
+                    "currencyCode": "KRW"
+                },
+                "retailPrice": {
+                    "amount": 5400,
+                    "currencyCode": "KRW"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=bhpyCQAAQBAJ&rdid=book-bhpyCQAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 6000000000,
+                            "currencyCode": "KRW"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5400000000,
+                            "currencyCode": "KRW"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "KR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.co.kr/books/download/Digital_Fashion_2015%EB%85%84_6%EC%9B%94%ED%98%B8-sample-pdf.acsm?id=bhpyCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=bhpyCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "4.22~2016.4.21 서울시 강남구 영동대로 85길 20-7 543호 135-846 T. 070-4226-2537ᅵF. 02-6280-4621ᅵ디지털패션 편집부 1 8 3 4 5 6 새로운 패션의 트렌드를 여는 Digital Fashion June 2015 l Vol.2 Vol.2 www.digitalfashion.co.kr 패션과 IT의 만남&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "F0DrCQAAQBAJ",
+            "etag": "LMCjOkVYE1I",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/F0DrCQAAQBAJ",
+            "volumeInfo": {
+                "title": "Digital Fashion 2015년 7월호",
+                "subtitle": "패션과 IT의 만남을 리딩하라!",
+                "authors": [
+                    "(주)리타미디어 편집부"
+                ],
+                "publisher": "(주)리타미디어",
+                "publishedDate": "2015-06-18",
+                "description": "IT를 아우르는 패션의 새로운 패러다임을 전하는 한국 최초 매거진 목차. p14-15 cover story 블랙야크 야크 온 P(YAK ON P) p16-17 Digital Fashion 스마트 의류 & 모자 p18-19 Digital Fashion Item 패션과 디지털의 만남 p20-21 Waerable Item 어벤져스 콜라보레이션 아이템 p22-25 Digital Fashion Accessory 스마트 밴드 총집합 p26-27 Gadget for Camping 캠핑을 더욱 즐겁게 해 줄 가젯 p28-29 App Gadget for Trip 나들이를 위한 가젯 & 앱 p30-31 Smart Item 여름을 위한 웨어러블 아이템 p32-35 Digital Item 홈 디바이스 / 블루투스 포터블 스피커 p38-41 Special 중국의 웨어러블에 전 세계가 놀라다 p42-45 K-People 숭실대 김주용 교수 / 포리프 최의승 대표 p46-47 Smart Tip 셀피를 위한 가젯 p48-49 Digital Tip 소중한 내 정보 지키는 앱과 주얼리 p50-51 Global Wearable 해외 웨어러블 소개 p52-53 Wearable for People 노인과 아기를 위한 웨어러블 p54-55 Gadget for Coffee 커피를 즐기는 또 다른 방법 p56, 58 New Item 럭셔리 휴대폰 액세서리 p60-61 Smart Review 블로거들의 웨어러블 체험 후기 p62-63 Spot 다양한 콘텐츠와 IT가 만나는 공간 p64-67 Beyond Digital Fashion 리핏 스틱, 스마트 섬유 p68 smart car 자동차를 위한 스마트한 가젯 p69 Smart Item 하이 테크 자전거 가젯 p70,72 Fair 국내 최대 IT Show WIS p75-85 wearable expertise 웨어러블 전문가에게 배우다",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 94,
+                "printType": "BOOK",
+                "categories": [
+                    "Design"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.0.0.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=F0DrCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=F0DrCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "ko",
+                "previewLink": "http://books.google.co.kr/books?id=F0DrCQAAQBAJ&pg=PA91&dq=digital&hl=&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=F0DrCQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=F0DrCQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 6000,
+                    "currencyCode": "KRW"
+                },
+                "retailPrice": {
+                    "amount": 5400,
+                    "currencyCode": "KRW"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=F0DrCQAAQBAJ&rdid=book-F0DrCQAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 6000000000,
+                            "currencyCode": "KRW"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5400000000,
+                            "currencyCode": "KRW"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "KR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.co.kr/books/download/Digital_Fashion_2015%EB%85%84_7%EC%9B%94%ED%98%B8-sample-pdf.acsm?id=F0DrCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=F0DrCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "보내는 사람 이름 주소 우편엽서 우편엽서 보내는 사람 이름 주소 정기구독 납부안내 디지털패션 독자 분들께 선물을 드립니다 문의 무통장입금 예금주. 수취인 후납부 서울강남우체국 승인 제41643호 발송유효기간 2015. 4.22~2016.4.21 우편요금 수취인&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "xynoAgAAQBAJ",
+            "etag": "OlBmPQSgjDU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/xynoAgAAQBAJ",
+            "volumeInfo": {
+                "title": "디고",
+                "authors": [
+                    "심우"
+                ],
+                "publisher": "상상e",
+                "publishedDate": "2013-08-29",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9788954428149"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8954428142"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=xynoAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=xynoAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "ko",
+                "previewLink": "http://books.google.co.kr/books?id=xynoAgAAQBAJ&pg=PT112&dq=digital&hl=&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=xynoAgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xynoAgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 3000,
+                    "currencyCode": "KRW"
+                },
+                "retailPrice": {
+                    "amount": 2700,
+                    "currencyCode": "KRW"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=xynoAgAAQBAJ&rdid=book-xynoAgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 3000000000,
+                            "currencyCode": "KRW"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 2700000000,
+                            "currencyCode": "KRW"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "KR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.co.kr/books/download/%EB%94%94%EA%B3%A0-sample-epub.acsm?id=xynoAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.co.kr/books/download/%EB%94%94%EA%B3%A0-sample-pdf.acsm?id=xynoAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=xynoAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "그냥 프로그램 과 디지털마인드 프로그램의 차이는 물과 기름의 차이보 다 더하다. 인간과 침팬지의 유전자는 98.77퍼센트가 같 다. 그러나 1.23퍼센트의 차이는 엄청난 결과를 가져왔 다. 불과 1.23퍼센트에서 질적 전환이 일어난 것처럼 일 반 프로그램&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "mNGNEAAAQBAJ",
+            "etag": "2x1SMHkuSfY",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/mNGNEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Digital Art",
+                "subtitle": "Third Edition",
+                "authors": [
+                    "Christiane Paul"
+                ],
+                "publisher": "National Geographic Books",
+                "publishedDate": "2015-05-12",
+                "description": "“Paul does an impressive job of compressing the activity of a huge field, in which there are no obvious heroes and no single aesthetic line.” —Publishers Weekly Digital technology has revolutionized the way we produce and experience art today. Not only have traditional forms of art such as printing, painting, photography, and sculpture been transformed by digital techniques and media, but the emergence of entirely new forms such as internet and software art, digital installation, and virtual reality has forever changed the way we define art. Christiane Paul surveys the developments in digital art from its appearance in the 1980s to the present day and looks ahead to what the future may hold. She discusses the key artists and works in the genre, drawing a distinction between work that uses digital practices as tools to produce traditional forms and work that uses them to create new kinds of art. She explores the broader themes and questions raised by these artworks such as viewer interaction, artificial life and intelligence, political and social activism, networks and telepresence, and issues surrounding the collection, presentation, and preservation of digital art. This third, expanded edition of the popular resource investigates key areas of digital art practice that have gained prominence in recent years, including interactive public installation, augmented and mixed reality, social networking, and file-sharing technologies.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780500204238"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0500204233"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 0,
+                "printType": "BOOK",
+                "categories": [
+                    "Antiques & Collectibles"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=mNGNEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=mNGNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.co.kr/books?id=mNGNEAAAQBAJ&dq=digital&hl=&cd=10&source=gbs_api",
+                "infoLink": "http://books.google.co.kr/books?id=mNGNEAAAQBAJ&dq=digital&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Digital_Art.html?hl=&id=mNGNEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "KR",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=mNGNEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "This third, expanded edition of the popular resource investigates key areas of digital art practice that have gained prominence in recent years, including interactive public installation, augmented and mixed reality, social networking, and ..."
+            }
+        }
+    ]
+}
