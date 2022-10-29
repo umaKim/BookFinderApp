@@ -37,7 +37,7 @@ class BookFinderHeaderView: UICollectionReusableView {
         
         NSLayoutConstraint.activate([
             numberOfReultsLabel.centerYAnchor.constraint(equalTo: centerYAnchor),
-            numberOfReultsLabel.leadingAnchor.constraint(equalTo: leadingAnchor)
+            numberOfReultsLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16)
         ])
     }
     
