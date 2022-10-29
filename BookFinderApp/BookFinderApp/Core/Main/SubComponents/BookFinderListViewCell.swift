@@ -11,8 +11,6 @@ import Combine
 class BookFinderListViewCell: UITableViewCell {
     static let identifier = "ListViewCell"
     
-    private lazy var content = defaultContentConfiguration()
-    
     private let bookImageView: UIImageView = {
        let uv = UIImageView()
         uv.heightAnchor.constraint(equalToConstant: 90).isActive = true
