@@ -28,6 +28,7 @@ class BookFinderListView: UITableView {
         )
         self.rowHeight = 100
         self.tableHeaderView = headerView
+        self.keyboardDismissMode = .onDrag
     }
     
     required init?(coder: NSCoder) {

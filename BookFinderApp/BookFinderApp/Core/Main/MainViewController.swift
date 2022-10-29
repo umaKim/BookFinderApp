@@ -27,30 +27,29 @@ class MainViewController: BaseViewController<MainViewModel> {
         
         contentView.listView.dataSource = self
         contentView.listView.delegate = self
+        contentView.searchBarView.delegate = self
         
         bind()
     }
     
     private func bind() {
-        contentView
-            .actionPublisher.sink { action in
-                switch action {
-                case .searchBarTextDidChange(let query):
-                    self.viewModel.getBook(of: query)
-                }
-            }
-            .store(in: &cancellables)
-        
         viewModel
             .notificationPublisher
             .sink {[weak self] noti in
                 switch noti {
                 case .fetchData(let books):
-                    self?.contentView.configureNumberOfResult(as: books.count)
+                    self?.contentView.listView.configureHeaderView(with: books.count)
                     self?.contentView.reloadListView()
                 }
             }
             .store(in: &cancellables)
+    }
+}
+
+extension MainViewController: UISearchBarDelegate {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        viewModel.setBookTitle(as: searchBar.text ?? "")
+        viewModel.getBook()
     }
 }
 
@@ -68,6 +67,14 @@ extension MainViewController: UITableViewDataSource {
         cell.configure(with: viewModel.books[indexPath.row])
         return cell
     }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let paginate = scrollView.contentSize.height - (contentView.listView.rowHeight) * 6
+        
+        if scrollView.contentOffset.y > paginate {
+            viewModel.requestNextPage()
+        }
+    }
 }
 
 extension MainViewController: UITableViewDataSourcePrefetching {
@@ -76,7 +83,7 @@ extension MainViewController: UITableViewDataSourcePrefetching {
         urlStrings.forEach({ ImageProvider.shared.loadImage(from: $0) })
     }
 }
-    
+
 extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
