@@ -35,6 +35,7 @@
 		35CAB091290CF109005F20BA /* BookFinderListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB08E290CF109005F20BA /* BookFinderListViewCell.swift */; };
 		35CAB092290CF109005F20BA /* BookFinderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB08F290CF109005F20BA /* BookFinderListView.swift */; };
 		35CAB093290CF109005F20BA /* BookFinderHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB090290CF109005F20BA /* BookFinderHeaderView.swift */; };
+		35CAB095290CF1C8005F20BA /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB094290CF1C8005F20BA /* ImageProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		35CAB08E290CF109005F20BA /* BookFinderListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookFinderListViewCell.swift; sourceTree = "<group>"; };
 		35CAB08F290CF109005F20BA /* BookFinderListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookFinderListView.swift; sourceTree = "<group>"; };
 		35CAB090290CF109005F20BA /* BookFinderHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookFinderHeaderView.swift; sourceTree = "<group>"; };
+		35CAB094290CF1C8005F20BA /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				35CAB064290B68E0005F20BA /* NetworkService.swift */,
+				35CAB094290CF1C8005F20BA /* ImageProvider.swift */,
 				35CAB068290B6D63005F20BA /* APIRequestable.swift */,
 				35CAB06A290B6D72005F20BA /* APIError.swift */,
 			);
@@ -383,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CAB095290CF1C8005F20BA /* ImageProvider.swift in Sources */,
 				35CAB093290CF109005F20BA /* BookFinderHeaderView.swift in Sources */,
 				35CAB080290C35BF005F20BA /* UIView+Ext.swift in Sources */,
 				35CAB091290CF109005F20BA /* BookFinderListViewCell.swift in Sources */,
