@@ -61,6 +61,7 @@
 		35CAB06E290B8006005F20BA /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		35CAB070290B8113005F20BA /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		35CAB076290BD4F3005F20BA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		35CAB07F290C35BF005F20BA /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +115,7 @@
 			children = (
 				35CAB02C290B64F7005F20BA /* AppDelegate.swift */,
 				35CAB02E290B64F7005F20BA /* SceneDelegate.swift */,
+				35CAB07E290C35B6005F20BA /* Extensions */,
 				35CAB067290B6926005F20BA /* Network */,
 				35CAB066290B691F005F20BA /* Core */,
 				35CAB035290B64FA005F20BA /* Assets.xcassets */,
@@ -185,6 +187,14 @@
 				35CAB086290CE300005F20BA /* LoadingView.swift */,
 			);
 			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		35CAB07E290C35B6005F20BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35CAB07F290C35BF005F20BA /* UIView+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CAB080290C35BF005F20BA /* UIView+Ext.swift in Sources */,
 				35CAB031290B64F7005F20BA /* MainViewController.swift in Sources */,
 				35CAB065290B68E0005F20BA /* NetworkService.swift in Sources */,
 				35CAB063290B68BF005F20BA /* MainView.swift in Sources */,
