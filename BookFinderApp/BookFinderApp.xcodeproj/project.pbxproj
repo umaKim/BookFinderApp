@@ -32,6 +32,9 @@
 		35CAB083290C35EE005F20BA /* BookFinderListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB082290C35EE005F20BA /* BookFinderListViewCell.swift */; };
 		35CAB085290C36FE005F20BA /* BookFinderHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB084290C36FE005F20BA /* BookFinderHeaderView.swift */; };
 		35CAB087290CE300005F20BA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB086290CE300005F20BA /* LoadingView.swift */; };
+		35CAB091290CF109005F20BA /* BookFinderListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB08E290CF109005F20BA /* BookFinderListViewCell.swift */; };
+		35CAB092290CF109005F20BA /* BookFinderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB08F290CF109005F20BA /* BookFinderListView.swift */; };
+		35CAB093290CF109005F20BA /* BookFinderHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB090290CF109005F20BA /* BookFinderHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		35CAB082290C35EE005F20BA /* BookFinderListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFinderListViewCell.swift; sourceTree = "<group>"; };
 		35CAB084290C36FE005F20BA /* BookFinderHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFinderHeaderView.swift; sourceTree = "<group>"; };
 		35CAB086290CE300005F20BA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		35CAB08E290CF109005F20BA /* BookFinderListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookFinderListViewCell.swift; sourceTree = "<group>"; };
+		35CAB08F290CF109005F20BA /* BookFinderListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookFinderListView.swift; sourceTree = "<group>"; };
+		35CAB090290CF109005F20BA /* BookFinderHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookFinderHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 				35CAB042290B64FB005F20BA /* BookFinderAppTests */,
 				35CAB04C290B64FB005F20BA /* BookFinderAppUITests */,
 				35CAB02A290B64F7005F20BA /* Products */,
+				35CAB08B290CF0BB005F20BA /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +174,7 @@
 				35CAB06C290B7461005F20BA /* MainViewModel.swift */,
 				35CAB030290B64F7005F20BA /* MainViewController.swift */,
 				35CAB062290B68BF005F20BA /* MainView.swift */,
+				35CAB08D290CF109005F20BA /* SubComponents */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -217,6 +225,26 @@
 				35CAB07F290C35BF005F20BA /* UIView+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35CAB08B290CF0BB005F20BA /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				35CAB07C290C358D005F20BA /* BookFinderListView.swift */,
+				35CAB082290C35EE005F20BA /* BookFinderListViewCell.swift */,
+				35CAB084290C36FE005F20BA /* BookFinderHeaderView.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		35CAB08D290CF109005F20BA /* SubComponents */ = {
+			isa = PBXGroup;
+			children = (
+				35CAB08E290CF109005F20BA /* BookFinderListViewCell.swift */,
+				35CAB08F290CF109005F20BA /* BookFinderListView.swift */,
+				35CAB090290CF109005F20BA /* BookFinderHeaderView.swift */,
+			);
+			path = SubComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,7 +383,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CAB093290CF109005F20BA /* BookFinderHeaderView.swift in Sources */,
 				35CAB080290C35BF005F20BA /* UIView+Ext.swift in Sources */,
+				35CAB091290CF109005F20BA /* BookFinderListViewCell.swift in Sources */,
 				35CAB07D290C358D005F20BA /* BookFinderListView.swift in Sources */,
 				35CAB031290B64F7005F20BA /* MainViewController.swift in Sources */,
 				35CAB065290B68E0005F20BA /* NetworkService.swift in Sources */,
@@ -371,6 +401,7 @@
 				35CAB087290CE300005F20BA /* LoadingView.swift in Sources */,
 				35CAB02F290B64F7005F20BA /* SceneDelegate.swift in Sources */,
 				35CAB085290C36FE005F20BA /* BookFinderHeaderView.swift in Sources */,
+				35CAB092290CF109005F20BA /* BookFinderListView.swift in Sources */,
 				35CAB06F290B8006005F20BA /* BaseView.swift in Sources */,
 				35CAB06B290B6D72005F20BA /* APIError.swift in Sources */,
 				35CAB075290BD349005F20BA /* Models.swift in Sources */,
