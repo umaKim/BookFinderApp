@@ -16,6 +16,20 @@ class BookFinderHeaderView: UICollectionReusableView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        setupUI()
+    }
+    
+    public func configure(with number: Int) {
+        if number != 0 {
+            numberOfReultsLabel.text = "Results: \(number)"
+        } else {
+            numberOfReultsLabel.isHidden = true
+        }
+    }
+    
+    private func setupUI() {
+        backgroundColor = .systemGray6
+        
         [numberOfReultsLabel].forEach { uv in
             uv.translatesAutoresizingMaskIntoConstraints = false
             addSubview(uv)
