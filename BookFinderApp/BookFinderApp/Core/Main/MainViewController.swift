@@ -27,6 +27,7 @@ class MainViewController: BaseViewController<MainViewModel> {
         
         contentView.listView.dataSource = self
         contentView.listView.delegate = self
+        contentView.searchBarView.delegate = self
         
         bind()
     }
@@ -46,11 +47,18 @@ class MainViewController: BaseViewController<MainViewModel> {
             .sink {[weak self] noti in
                 switch noti {
                 case .fetchData(let books):
-                    self?.contentView.configureNumberOfResult(as: books.count)
+                    self?.contentView.listView.configureHeaderView(with: books.count)
                     self?.contentView.reloadListView()
                 }
             }
             .store(in: &cancellables)
+    }
+}
+
+extension MainViewController: UISearchBarDelegate {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        viewModel.setBookTitle(as: searchBar.text ?? "")
+        viewModel.getBook()
     }
 }
 
