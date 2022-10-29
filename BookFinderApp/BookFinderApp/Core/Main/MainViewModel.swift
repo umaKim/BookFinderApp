@@ -9,7 +9,7 @@ import Combine
 import Foundation
 
 enum MainViewModelNotification: Notifiable {
-    case doneWithDataLoading
+    case fetchData([Book])
 }
 
 class MainViewModel: BaseViewModel<MainViewModelNotification> {
@@ -26,6 +26,7 @@ class MainViewModel: BaseViewModel<MainViewModelNotification> {
     }
     
     func getBook(of title: String) {
+        isLoadingSubject.send(true)
         network
             .getBook(of: title)
             .receive(on: DispatchQueue.main)
@@ -35,8 +36,10 @@ class MainViewModel: BaseViewModel<MainViewModelNotification> {
                 case .failure(let error):
                     self?.errorSubject.send(error)
                 }
+                self?.isLoadingSubject.send(false)
             } receiveValue: {[weak self] result in
-                self?.notificationSubject.send(.doneWithDataLoading)
+                self?.books = result.items
+                self?.notificationSubject.send(.fetchData(result.items))
             }
             .store(in: &cancellables)
     }

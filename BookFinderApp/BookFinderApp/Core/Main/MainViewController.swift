@@ -45,7 +45,8 @@ class MainViewController: BaseViewController<MainViewModel> {
             .notificationPublisher
             .sink {[weak self] noti in
                 switch noti {
-                case .doneWithDataLoading:
+                case .fetchData(let books):
+                    self?.contentView.configureNumberOfResult(as: books.count)
                     self?.contentView.reloadListView()
                 }
             }
@@ -79,7 +80,7 @@ extension MainViewController: UITableViewDataSourcePrefetching {
 extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        let vc = DetailViewController(viewModel: DetailViewModel())
-        navigationController?.pushViewController(vc, animated: true)
+//        let vc = DetailViewController(viewModel: DetailViewModel())
+//        navigationController?.pushViewController(vc, animated: true)
     }
 }
