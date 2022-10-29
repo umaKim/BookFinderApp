@@ -8,11 +8,7 @@
 import UIKit
 import Combine
 
-enum MainViewAction: Actionable {
-    case searchBarTextDidChange(String)
-}
-
-class MainView: BaseView<MainViewAction> {
+class MainView: UIView {
     
     private(set) lazy var searchBarView = UISearchBar()
     private(set) lazy var listView = BookFinderListView()
@@ -20,28 +16,13 @@ class MainView: BaseView<MainViewAction> {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        bind()
         setupUI()
-    }
-    
-    private func bind() {
-        searchBarView
-            .textDidChangePublisher
-            .debounce(for: .seconds(1.0), scheduler: DispatchQueue.main)
-            .sink {[weak self] text in
-                self?.actionSubject.send(.searchBarTextDidChange(text))
-            }
-            .store(in: &cancellables)
     }
     
     public func reloadListView() {
         DispatchQueue.main.async {
             self.listView.reloadData()
         }
-    }
-    
-    public func configureNumberOfResult(as count: Int) {
-        self.listView.configureHeaderView(with: count)
     }
     
     private func setupUI() {

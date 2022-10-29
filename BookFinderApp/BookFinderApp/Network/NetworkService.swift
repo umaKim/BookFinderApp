@@ -24,7 +24,7 @@ protocol URLRequestable {
 }
 
 enum BookFinderAppRequest {
-    case getBook(String)
+    case getBook(String, Int)
 }
 
 extension BookFinderAppRequest: URLRequestable {
@@ -38,8 +38,8 @@ extension BookFinderAppRequest: URLRequestable {
     
     var endPoint: String {
         switch self {
-        case .getBook(let query):
-            return "v1/volumes?q=\(query)"
+        case .getBook(let query, let page):
+            return "v1/volumes?q=\(query)&startIndex=\(page)"
         }
     }
     
@@ -64,9 +64,9 @@ struct NetworkService: BookFinderAppAPIRequestable {
       self.session = session
     }
     
-    func getBook(of title: String) -> AnyPublisher<BookResponse, APIError> {
+    func getBook(of title: String, page: Int) -> AnyPublisher<BookResponse, APIError> {
         guard
-            let request = self.createRequest(from: BookFinderAppRequest.getBook(title))
+            let request = self.createRequest(from: BookFinderAppRequest.getBook(title, page))
         else {
           return Fail(error: APIError.invalidRequest).eraseToAnyPublisher()
         }

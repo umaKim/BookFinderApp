@@ -7,11 +7,7 @@
 
 import UIKit
 
-enum DetailViewAction: Actionable {
-    
-}
-
-class DetailView: BaseView<DetailViewAction> {
+class DetailView: UIView {
 
     
 }

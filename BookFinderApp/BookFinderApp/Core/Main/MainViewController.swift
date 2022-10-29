@@ -68,6 +68,14 @@ extension MainViewController: UITableViewDataSource {
         cell.configure(with: viewModel.books[indexPath.row])
         return cell
     }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let paginate = scrollView.contentSize.height - (contentView.listView.rowHeight) * 6
+        
+        if scrollView.contentOffset.y > paginate {
+            viewModel.requestNextPage()
+        }
+    }
 }
 
 extension MainViewController: UITableViewDataSourcePrefetching {
@@ -76,7 +84,7 @@ extension MainViewController: UITableViewDataSourcePrefetching {
         urlStrings.forEach({ ImageProvider.shared.loadImage(from: $0) })
     }
 }
-    
+
 extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
