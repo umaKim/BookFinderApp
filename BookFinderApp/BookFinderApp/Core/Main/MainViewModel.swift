@@ -52,7 +52,6 @@ class MainViewModel: BaseViewModel<MainViewModelNotification> {
                 self.isSearching = false
             } receiveValue: {[weak self] result in
                 guard let self = self else { return }
-                print(result.items)
                 self.books.append(contentsOf: result.items)
                 self.notificationSubject.send(.fetchData(self.books))
             }
