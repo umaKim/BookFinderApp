@@ -87,7 +87,7 @@ extension MainViewController: UITableViewDataSourcePrefetching {
 extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-//        let vc = DetailViewController(viewModel: DetailViewModel())
-//        navigationController?.pushViewController(vc, animated: true)
+        let vc = DetailViewController(viewModel: DetailViewModel(viewModel.books[indexPath.row]))
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
