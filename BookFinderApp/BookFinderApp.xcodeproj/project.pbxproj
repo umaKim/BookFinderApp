@@ -19,6 +19,19 @@
 		35CAB061290B68A4005F20BA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB060290B68A4005F20BA /* DetailViewController.swift */; };
 		35CAB063290B68BF005F20BA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB062290B68BF005F20BA /* MainView.swift */; };
 		35CAB065290B68E0005F20BA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB064290B68E0005F20BA /* NetworkService.swift */; };
+		35CAB069290B6D63005F20BA /* APIRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB068290B6D63005F20BA /* APIRequestable.swift */; };
+		35CAB06B290B6D72005F20BA /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB06A290B6D72005F20BA /* APIError.swift */; };
+		35CAB06D290B7461005F20BA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB06C290B7461005F20BA /* MainViewModel.swift */; };
+		35CAB06F290B8006005F20BA /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB06E290B8006005F20BA /* BaseView.swift */; };
+		35CAB071290B8113005F20BA /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB070290B8113005F20BA /* BaseViewModel.swift */; };
+		35CAB075290BD349005F20BA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB074290BD349005F20BA /* Models.swift */; };
+		35CAB077290BD4F3005F20BA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB076290BD4F3005F20BA /* BaseViewController.swift */; };
+		35CAB07A290BD517005F20BA /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 35CAB079290BD517005F20BA /* CombineCocoa */; };
+		35CAB07D290C358D005F20BA /* BookFinderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB07C290C358D005F20BA /* BookFinderListView.swift */; };
+		35CAB080290C35BF005F20BA /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB07F290C35BF005F20BA /* UIView+Ext.swift */; };
+		35CAB083290C35EE005F20BA /* BookFinderListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB082290C35EE005F20BA /* BookFinderListViewCell.swift */; };
+		35CAB085290C36FE005F20BA /* BookFinderHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB084290C36FE005F20BA /* BookFinderHeaderView.swift */; };
+		35CAB087290CE300005F20BA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB086290CE300005F20BA /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +68,18 @@
 		35CAB060290B68A4005F20BA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		35CAB062290B68BF005F20BA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		35CAB064290B68E0005F20BA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		35CAB068290B6D63005F20BA /* APIRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestable.swift; sourceTree = "<group>"; };
+		35CAB06A290B6D72005F20BA /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		35CAB06C290B7461005F20BA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		35CAB06E290B8006005F20BA /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		35CAB070290B8113005F20BA /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		35CAB074290BD349005F20BA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		35CAB076290BD4F3005F20BA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		35CAB07C290C358D005F20BA /* BookFinderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFinderListView.swift; sourceTree = "<group>"; };
+		35CAB07F290C35BF005F20BA /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		35CAB082290C35EE005F20BA /* BookFinderListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFinderListViewCell.swift; sourceTree = "<group>"; };
+		35CAB084290C36FE005F20BA /* BookFinderHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFinderHeaderView.swift; sourceTree = "<group>"; };
+		35CAB086290CE300005F20BA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CAB07A290BD517005F20BA /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +133,8 @@
 			children = (
 				35CAB02C290B64F7005F20BA /* AppDelegate.swift */,
 				35CAB02E290B64F7005F20BA /* SceneDelegate.swift */,
+				35CAB074290BD349005F20BA /* Models.swift */,
+				35CAB07E290C35B6005F20BA /* Extensions */,
 				35CAB067290B6926005F20BA /* Network */,
 				35CAB066290B691F005F20BA /* Core */,
 				35CAB035290B64FA005F20BA /* Assets.xcassets */,
@@ -136,6 +164,7 @@
 		35CAB05C290B6879005F20BA /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				35CAB06C290B7461005F20BA /* MainViewModel.swift */,
 				35CAB030290B64F7005F20BA /* MainViewController.swift */,
 				35CAB062290B68BF005F20BA /* MainView.swift */,
 			);
@@ -155,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				35CAB05D290B6886005F20BA /* Detail */,
+				35CAB07B290C0687005F20BA /* BaseViews */,
 				35CAB05C290B6879005F20BA /* Main */,
 			);
 			path = Core;
@@ -164,8 +194,29 @@
 			isa = PBXGroup;
 			children = (
 				35CAB064290B68E0005F20BA /* NetworkService.swift */,
+				35CAB068290B6D63005F20BA /* APIRequestable.swift */,
+				35CAB06A290B6D72005F20BA /* APIError.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		35CAB07B290C0687005F20BA /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				35CAB070290B8113005F20BA /* BaseViewModel.swift */,
+				35CAB076290BD4F3005F20BA /* BaseViewController.swift */,
+				35CAB06E290B8006005F20BA /* BaseView.swift */,
+				35CAB086290CE300005F20BA /* LoadingView.swift */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		35CAB07E290C35B6005F20BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35CAB07F290C35BF005F20BA /* UIView+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +235,9 @@
 			dependencies = (
 			);
 			name = BookFinderApp;
+			packageProductDependencies = (
+				35CAB079290BD517005F20BA /* CombineCocoa */,
+			);
 			productName = BookFinderApp;
 			productReference = 35CAB029290B64F7005F20BA /* BookFinderApp.app */;
 			productType = "com.apple.product-type.application";
@@ -256,6 +310,9 @@
 				Base,
 			);
 			mainGroup = 35CAB020290B64F7005F20BA;
+			packageReferences = (
+				35CAB078290BD517005F20BA /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+			);
 			productRefGroup = 35CAB02A290B64F7005F20BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -298,13 +355,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CAB080290C35BF005F20BA /* UIView+Ext.swift in Sources */,
+				35CAB07D290C358D005F20BA /* BookFinderListView.swift in Sources */,
 				35CAB031290B64F7005F20BA /* MainViewController.swift in Sources */,
 				35CAB065290B68E0005F20BA /* NetworkService.swift in Sources */,
 				35CAB063290B68BF005F20BA /* MainView.swift in Sources */,
+				35CAB083290C35EE005F20BA /* BookFinderListViewCell.swift in Sources */,
 				35CAB05F290B6899005F20BA /* DetailView.swift in Sources */,
 				35CAB061290B68A4005F20BA /* DetailViewController.swift in Sources */,
+				35CAB077290BD4F3005F20BA /* BaseViewController.swift in Sources */,
+				35CAB071290B8113005F20BA /* BaseViewModel.swift in Sources */,
+				35CAB06D290B7461005F20BA /* MainViewModel.swift in Sources */,
 				35CAB02D290B64F7005F20BA /* AppDelegate.swift in Sources */,
+				35CAB069290B6D63005F20BA /* APIRequestable.swift in Sources */,
+				35CAB087290CE300005F20BA /* LoadingView.swift in Sources */,
 				35CAB02F290B64F7005F20BA /* SceneDelegate.swift in Sources */,
+				35CAB085290C36FE005F20BA /* BookFinderHeaderView.swift in Sources */,
+				35CAB06F290B8006005F20BA /* BaseView.swift in Sources */,
+				35CAB06B290B6D72005F20BA /* APIError.swift in Sources */,
+				35CAB075290BD349005F20BA /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +709,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		35CAB078290BD517005F20BA /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		35CAB079290BD517005F20BA /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35CAB078290BD517005F20BA /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 35CAB021290B64F7005F20BA /* Project object */;
 }
