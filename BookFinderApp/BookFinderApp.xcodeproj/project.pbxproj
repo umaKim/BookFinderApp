@@ -24,6 +24,7 @@
 		35CAB06D290B7461005F20BA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB06C290B7461005F20BA /* MainViewModel.swift */; };
 		35CAB06F290B8006005F20BA /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB06E290B8006005F20BA /* BaseView.swift */; };
 		35CAB071290B8113005F20BA /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB070290B8113005F20BA /* BaseViewModel.swift */; };
+		35CAB073290B8DD7005F20BA /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB072290B8DD7005F20BA /* DetailViewModel.swift */; };
 		35CAB075290BD349005F20BA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB074290BD349005F20BA /* Models.swift */; };
 		35CAB077290BD4F3005F20BA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB076290BD4F3005F20BA /* BaseViewController.swift */; };
 		35CAB07A290BD517005F20BA /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 35CAB079290BD517005F20BA /* CombineCocoa */; };
@@ -73,6 +74,7 @@
 		35CAB06C290B7461005F20BA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		35CAB06E290B8006005F20BA /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		35CAB070290B8113005F20BA /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		35CAB072290B8DD7005F20BA /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		35CAB074290BD349005F20BA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		35CAB076290BD4F3005F20BA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		35CAB07C290C358D005F20BA /* BookFinderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFinderListView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				35CAB06C290B7461005F20BA /* MainViewModel.swift */,
 				35CAB030290B64F7005F20BA /* MainViewController.swift */,
 				35CAB062290B68BF005F20BA /* MainView.swift */,
+				35CAB081290C35DE005F20BA /* SubComponents */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 		35CAB05D290B6886005F20BA /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				35CAB072290B8DD7005F20BA /* DetailViewModel.swift */,
 				35CAB060290B68A4005F20BA /* DetailViewController.swift */,
 				35CAB05E290B6899005F20BA /* DetailView.swift */,
 			);
@@ -186,6 +190,7 @@
 				35CAB05D290B6886005F20BA /* Detail */,
 				35CAB07B290C0687005F20BA /* BaseViews */,
 				35CAB05C290B6879005F20BA /* Main */,
+				35CAB05D290B6886005F20BA /* Detail */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -217,6 +222,16 @@
 				35CAB07F290C35BF005F20BA /* UIView+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35CAB081290C35DE005F20BA /* SubComponents */ = {
+			isa = PBXGroup;
+			children = (
+				35CAB07C290C358D005F20BA /* BookFinderListView.swift */,
+				35CAB082290C35EE005F20BA /* BookFinderListViewCell.swift */,
+				35CAB084290C36FE005F20BA /* BookFinderHeaderView.swift */,
+			);
+			path = SubComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +384,7 @@
 				35CAB02D290B64F7005F20BA /* AppDelegate.swift in Sources */,
 				35CAB069290B6D63005F20BA /* APIRequestable.swift in Sources */,
 				35CAB087290CE300005F20BA /* LoadingView.swift in Sources */,
+				35CAB073290B8DD7005F20BA /* DetailViewModel.swift in Sources */,
 				35CAB02F290B64F7005F20BA /* SceneDelegate.swift in Sources */,
 				35CAB085290C36FE005F20BA /* BookFinderHeaderView.swift in Sources */,
 				35CAB06F290B8006005F20BA /* BaseView.swift in Sources */,
