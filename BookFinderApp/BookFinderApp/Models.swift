@@ -9,7 +9,6 @@ import Foundation
 
 struct BookResponse: Decodable, Equatable {
     var items: [Book]
-    var totalItems: Int
 }
 
 struct Book: Decodable, Equatable, Identifiable {
