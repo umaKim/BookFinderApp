@@ -41,14 +41,6 @@ class BookFinderHeaderView: UICollectionReusableView {
         ])
     }
     
-    public func configure(with number: Int) {
-        if number != 0 {
-            numberOfReultsLabel.text = "\(number)"
-        } else {
-            numberOfReultsLabel.isHidden = true
-        }
-    }
-    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
