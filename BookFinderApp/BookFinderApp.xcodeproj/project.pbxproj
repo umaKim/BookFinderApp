@@ -19,6 +19,9 @@
 		35CAB061290B68A4005F20BA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB060290B68A4005F20BA /* DetailViewController.swift */; };
 		35CAB063290B68BF005F20BA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB062290B68BF005F20BA /* MainView.swift */; };
 		35CAB065290B68E0005F20BA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB064290B68E0005F20BA /* NetworkService.swift */; };
+		35CAB06F290B8006005F20BA /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB06E290B8006005F20BA /* BaseView.swift */; };
+		35CAB071290B8113005F20BA /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB070290B8113005F20BA /* BaseViewModel.swift */; };
+		35CAB077290BD4F3005F20BA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAB076290BD4F3005F20BA /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		35CAB060290B68A4005F20BA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		35CAB062290B68BF005F20BA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		35CAB064290B68E0005F20BA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		35CAB06E290B8006005F20BA /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		35CAB070290B8113005F20BA /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		35CAB076290BD4F3005F20BA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				35CAB05D290B6886005F20BA /* Detail */,
+				35CAB07B290C0687005F20BA /* BaseViews */,
 				35CAB05C290B6879005F20BA /* Main */,
 			);
 			path = Core;
@@ -167,6 +174,17 @@
 				35CAB064290B68E0005F20BA /* NetworkService.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		35CAB07B290C0687005F20BA /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				35CAB070290B8113005F20BA /* BaseViewModel.swift */,
+				35CAB076290BD4F3005F20BA /* BaseViewController.swift */,
+				35CAB06E290B8006005F20BA /* BaseView.swift */,
+				35CAB086290CE300005F20BA /* LoadingView.swift */,
+			);
+			path = BaseViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,8 +328,11 @@
 				35CAB063290B68BF005F20BA /* MainView.swift in Sources */,
 				35CAB05F290B6899005F20BA /* DetailView.swift in Sources */,
 				35CAB061290B68A4005F20BA /* DetailViewController.swift in Sources */,
+				35CAB077290BD4F3005F20BA /* BaseViewController.swift in Sources */,
+				35CAB071290B8113005F20BA /* BaseViewModel.swift in Sources */,
 				35CAB02D290B64F7005F20BA /* AppDelegate.swift in Sources */,
 				35CAB02F290B64F7005F20BA /* SceneDelegate.swift in Sources */,
+				35CAB06F290B8006005F20BA /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
