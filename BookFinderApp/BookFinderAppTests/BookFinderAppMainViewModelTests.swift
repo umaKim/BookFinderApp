@@ -65,7 +65,8 @@ extension BookFinderAppMainViewModelTests {
     func notifyPublisher() {
         viewModel
             .notificationPublisher
-            .sink { noti in
+            .sink {[weak self] noti in
+                guard let self = self else { return }
                 switch noti {
                 case .fetchData(let items):
                     self.didReceiveSuccessResult?(items)
