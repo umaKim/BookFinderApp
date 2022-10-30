@@ -14,12 +14,19 @@ final class BookFinderAppMainViewModelTests: XCTestCase {
     private var network: BookFinderMockService!
     private var cancellables: Set<AnyCancellable>!
     
+    var didReceiveSuccessResult: (([Book]) -> Void)?
+    var didReceiveExpectation: XCTestExpectation?
+    
     override func setUp() {
         super.setUp()
         
         network = BookFinderMockService()
         viewModel = MainViewModel(network)
         cancellables = []
+        
+        didReceiveExpectation = expectation(description: "Service")
+        
+        notifyPublisher()
     }
     
     override func tearDown() {
@@ -28,51 +35,43 @@ final class BookFinderAppMainViewModelTests: XCTestCase {
         network = nil
         viewModel = nil
         cancellables = nil
+        
+        didReceiveSuccessResult = nil
+        didReceiveExpectation = nil
     }
 
-    func testExample() throws {
-        let expectation = self.expectation(description: "Service")
-        
-        var books: [Book] = []
-        
-        viewModel
-            .notificationPublisher
-            .sink { noti in
-                switch noti {
-                case .fetchData(let items):
-                    books = items
-                    expectation.fulfill()
-                }
-            }
-            .store(in: &cancellables)
-        
+    func testGetBook() {
         viewModel.getBook()
         
-        waitForExpectations(timeout: 5, handler: nil)
+        didReceiveSuccessResult = { result in
+            XCTAssertEqual(result, MockResponses.mockBookdata.items)
+        }
         
-        XCTAssertEqual(books, MockResponses.mockBookdata.items)
+        waitForExpectations(timeout: 5, handler: nil)
     }
     
-    func testPagination() {
-        let expectation = self.expectation(description: "Service")
+    func testRequestNextPage() {
+        viewModel.requestNextPage()
         
-        var books: [Book] = []
+        didReceiveSuccessResult = { result in
+            XCTAssertEqual(result, MockResponses.mockBookdata.items)
+        }
         
+        waitForExpectations(timeout: 5, handler: nil)
+    }
+}
+
+extension BookFinderAppMainViewModelTests {
+    func notifyPublisher() {
         viewModel
             .notificationPublisher
             .sink { noti in
                 switch noti {
                 case .fetchData(let items):
-                    books = items
-                    expectation.fulfill()
+                    self.didReceiveSuccessResult?(items)
+                    self.didReceiveExpectation?.fulfill()
                 }
             }
             .store(in: &cancellables)
-        
-        viewModel.requestNextPage()
-        
-        waitForExpectations(timeout: 5, handler: nil)
-        
-        XCTAssertEqual(books, MockResponses.mockBookdata.items)
     }
 }

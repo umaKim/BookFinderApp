@@ -27,15 +27,7 @@ final class URLRequestableTests: XCTestCase {
         
         let request = service.createRequest(from: BookFinderAppRequest.getBook(query, page))
         
-        let expectedString: String = ""
+        let expectedString: String = "https://www.googleapis.com/books/v1/volumes?q=Mock&startIndex=0"
         
         XCTAssertEqual(request?.url?.absoluteString, expectedString)
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-}
+    }}
