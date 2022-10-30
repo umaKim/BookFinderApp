@@ -30,4 +30,5 @@ final class URLRequestableTests: XCTestCase {
         let expectedString: String = "https://www.googleapis.com/books/v1/volumes?q=Mock&startIndex=0"
         
         XCTAssertEqual(request?.url?.absoluteString, expectedString)
-    }}
+    }
+}
