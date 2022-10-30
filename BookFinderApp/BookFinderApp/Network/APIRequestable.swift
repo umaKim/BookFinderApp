@@ -55,30 +55,3 @@ extension APIRequestable {
         return request
     }
 }
-
-protocol BookFinderAppAPIRequestable: APIRequestable {
-    func getBook(of title: String, page: Int) -> AnyPublisher<BookResponse, APIError>
-}
-
-extension BookFinderAppAPIRequestable {
-    func handleError(from response: Int) -> APIError {
-        guard let githubError = ResponseError(rawValue: response) else {
-          return .unknownError(response)
-        }
-        
-        switch githubError {
-        case .notModified:
-          return .invalidResponse
-        case .validationFailed:
-          return .validationError("Limit rate")
-        case .serviceUnavailable:
-          return .validationError("Service is unavailable")
-        }
-    }
-}
-
-enum ResponseError: Int {
-  case notModified = 304
-  case validationFailed = 422
-  case serviceUnavailable = 503
-}
