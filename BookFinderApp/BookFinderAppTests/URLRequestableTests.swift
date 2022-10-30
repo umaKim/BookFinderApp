@@ -19,7 +19,7 @@ final class URLRequestableTests: XCTestCase {
         }
     }
 
-    func testExample() {
+    func testCreateRequest() {
         let service = MockService(session: URLSession(configuration: .default))
         
         let query: String = "Mock"
