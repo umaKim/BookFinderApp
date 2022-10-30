@@ -7,9 +7,7 @@
 
 import Foundation
 
-enum DetailViewModelNotification: Notifiable {
-    
-}
+enum DetailViewModelNotification: Notifiable { }
 
 class DetailViewModel: BaseViewModel<DetailViewModelNotification> {
     
