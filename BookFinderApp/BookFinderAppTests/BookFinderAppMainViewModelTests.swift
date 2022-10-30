@@ -15,6 +15,8 @@ final class BookFinderAppMainViewModelTests: XCTestCase {
     private var cancellables: Set<AnyCancellable>!
     
     var didReceiveSuccessResult: (([Book]) -> Void)?
+    var didReceiveError: ((Error) -> Void)?
+    var didReceiveIsLoading: ((Bool)-> Void)?
     var didReceiveExpectation: XCTestExpectation?
     
     override func setUp() {
@@ -26,7 +28,9 @@ final class BookFinderAppMainViewModelTests: XCTestCase {
         
         didReceiveExpectation = expectation(description: "Service")
         
-        notifyPublisher()
+        setupNotifyPublisher()
+        setupErrorPublisher()
+        setupIsLoadingPublisher()
     }
     
     override func tearDown() {
@@ -59,10 +63,96 @@ final class BookFinderAppMainViewModelTests: XCTestCase {
         
         waitForExpectations(timeout: 5, handler: nil)
     }
+    
+    func testDefaultError() {
+        viewModel.errorSubject.send(APIError.defaultError("DefaultError", 0))
+        
+        didReceiveError = { error in
+            print(error)
+            XCTAssertEqual(error as! APIError, APIError.defaultError("DefaultError", 0))
+        }
+        
+        waitForExpectations(timeout: 5, handler: nil)
+    }
+    
+    func testInvalidJsonError() {
+        viewModel.errorSubject.send(APIError.invalidJson("InvalidJson"))
+        
+        didReceiveError = { error in
+            print(error)
+            XCTAssertEqual(error as! APIError, APIError.invalidJson("InvalidJson"))
+        }
+        
+        waitForExpectations(timeout: 5, handler: nil)
+    }
+    
+    func testInvalidRequestError() {
+        viewModel.errorSubject.send(APIError.invalidRequest)
+        
+        didReceiveError = { error in
+            print(error)
+            XCTAssertEqual(error as! APIError, APIError.invalidRequest)
+        }
+        
+        waitForExpectations(timeout: 5, handler: nil)
+    }
+    
+    func testInvalidResponseError() {
+        viewModel.errorSubject.send(APIError.invalidResponse)
+        
+        didReceiveError = { error in
+            print(error)
+            XCTAssertEqual(error as! APIError, APIError.invalidResponse)
+        }
+        
+        waitForExpectations(timeout: 5, handler: nil)
+    }
+    
+    func testUnknownError() {
+        viewModel.errorSubject.send(APIError.unknownError(500))
+        
+        didReceiveError = { error in
+            print(error)
+            XCTAssertEqual(error as! APIError, APIError.unknownError(500))
+        }
+        
+        waitForExpectations(timeout: 5, handler: nil)
+    }
+    
+    func testValidationError() {
+        viewModel.errorSubject.send(APIError.validationError("ValidationError"))
+        
+        didReceiveError = { error in
+            print(error)
+            XCTAssertEqual(error as! APIError, APIError.validationError("ValidationError"))
+        }
+        
+        waitForExpectations(timeout: 5, handler: nil)
+    }
+    
+    func testIsLoadingTrue() {
+        viewModel.isLoadingSubject.send(true)
+        
+        didReceiveIsLoading = { isLoading in
+            XCTAssertTrue(isLoading)
+        }
+        
+        waitForExpectations(timeout: 5, handler: nil)
+    }
+    
+    func testIsLoadingFalse() {
+        viewModel.isLoadingSubject.send(false)
+        
+        didReceiveIsLoading = { isLoading in
+            XCTAssertFalse(isLoading)
+        }
+        
+        waitForExpectations(timeout: 5, handler: nil)
+    }
 }
 
 extension BookFinderAppMainViewModelTests {
-    func notifyPublisher() {
+    func setupNotifyPublisher() {
         viewModel
             .notificationPublisher
             .sink {[weak self] noti in
@@ -72,6 +162,28 @@ extension BookFinderAppMainViewModelTests {
                     self.didReceiveSuccessResult?(items)
                     self.didReceiveExpectation?.fulfill()
                 }
+            }
+            .store(in: &cancellables)
+    }
+    
+    func setupErrorPublisher() {
+        viewModel
+            .errorPublisher
+            .sink {[weak self] error in
+                guard let self = self else { return }
+                self.didReceiveError?(error)
+                self.didReceiveExpectation?.fulfill()
+            }
+            .store(in: &cancellables)
+    }
+    
+    func setupIsLoadingPublisher() {
+        viewModel
+            .isLoadingPublisher
+            .sink {[weak self] isLoading in
+                guard let self = self else { return }
+                self.didReceiveIsLoading?(isLoading)
+                self.didReceiveExpectation?.fulfill()
             }
             .store(in: &cancellables)
     }
