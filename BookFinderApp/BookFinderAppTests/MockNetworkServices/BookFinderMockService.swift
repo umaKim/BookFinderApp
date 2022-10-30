@@ -10,12 +10,12 @@ import Foundation
 @testable import BookFinderApp
  
 struct BookFinderMockService: BookFinderAppAPIRequestable {
-    func getBook(of title: String) -> AnyPublisher<BookResponse, APIError> {
+    func getBook(of title: String, page: Int) -> AnyPublisher<BookFinderApp.BookResponse, BookFinderApp.APIError> {
         return Just(MockResponses.mockBookdata)
             .setFailureType(to: APIError.self)
             .eraseToAnyPublisher()
     }
- 
+    
     internal var session: URLSession
  
     init(session: URLSession = URLSession(configuration: .default)) {
