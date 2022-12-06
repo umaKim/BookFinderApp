@@ -38,25 +38,41 @@ class MainViewModel: BaseViewModel<MainViewModelNotification> {
     func getBook() {
         isSearching = true
         isLoadingSubject.send(true)
-        network
-            .getBook(of: bookTitle, page: page)
-            .receive(on: DispatchQueue.main)
-            .sink {[weak self] completion in
-                guard let self = self else {return }
-                switch completion {
-                case .finished: break
-                case .failure(let error):
-                    self.errorSubject.send(error)
-                }
-                self.isLoadingSubject.send(false)
-                self.isSearching = false
-            } receiveValue: {[weak self] result in
-                guard let self = self else { return }
-                print(result.items)
-                self.books.append(contentsOf: result.items)
-                self.notificationSubject.send(.fetchData(self.books))
+//        network
+//            .getBook(of: bookTitle, page: page)
+//            .receive(on: DispatchQueue.main)
+//            .sink {[weak self] completion in
+//                guard let self = self else {return }
+//                switch completion {
+//                case .finished: break
+//                case .failure(let error):
+//                    self.errorSubject.send(error)
+//                }
+//                self.isLoadingSubject.send(false)
+//                self.isSearching = false
+//            } receiveValue: {[weak self] result in
+//                guard let self = self else { return }
+//                print(result.items)
+//                self.books.append(contentsOf: result.items)
+//                self.notificationSubject.send(.fetchData(self.books))
+//            }
+//            .store(in: &cancellables)
+        network.getBook(of: bookTitle, page: page) { bookResponse, error in
+            if let error = error {
+                self.errorSubject.send(error)
+                return
             }
-            .store(in: &cancellables)
+            
+            if let books = bookResponse?.items {
+                DispatchQueue.main.async {
+                    self.books.append(contentsOf: books)
+                    self.notificationSubject.send(.fetchData(self.books))
+                    self.isLoadingSubject.send(false)
+                    self.isSearching = false
+                    return
+                }
+            }
+        }
     }
     
     func requestNextPage() {

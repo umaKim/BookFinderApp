@@ -9,7 +9,8 @@ import Foundation
 import Combine
 
 protocol BookFinderAppAPIRequestable: APIRequestable {
-    func getBook(of title: String, page: Int) -> AnyPublisher<BookResponse, APIError>
+//    func getBook(of title: String, page: Int) -> AnyPublisher<BookResponse, APIError>
+    func getBook(of title: String, page: Int, completion: @escaping (BookResponse?, APIError?) -> Void)
 }
 
 extension BookFinderAppAPIRequestable {

@@ -235,8 +235,8 @@
 			isa = PBXGroup;
 			children = (
 				35CAB07B290C0687005F20BA /* BaseViews */,
-				35CAB05C290B6879005F20BA /* Main */,
 				35CAB05D290B6886005F20BA /* Detail */,
+				35CAB05C290B6879005F20BA /* Main */,
 			);
 			path = Core;
 			sourceTree = "<group>";

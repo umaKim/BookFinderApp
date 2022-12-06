@@ -57,20 +57,26 @@ enum BaseUrl {
 }
 
 struct NetworkService: BookFinderAppAPIRequestable {
-    
     var session: URLSession
     
     init(session: URLSession = URLSession(configuration: .default)) {
       self.session = session
     }
     
-    func getBook(of title: String, page: Int) -> AnyPublisher<BookResponse, APIError> {
+//    func getBook(of title: String, page: Int) -> AnyPublisher<BookResponse, APIError> {
+//        guard
+//            let request = self.createRequest(from: BookFinderAppRequest.getBook(title, page))
+//        else {
+//          return Fail(error: APIError.invalidRequest).eraseToAnyPublisher()
+//        }
+//
+//        return self.request(request: request, response: BookResponse.self)
+//    }
+    
+    func getBook(of title: String, page: Int, completion: @escaping (BookResponse?, APIError?) -> Void) {
         guard
-            let request = self.createRequest(from: BookFinderAppRequest.getBook(title, page))
-        else {
-          return Fail(error: APIError.invalidRequest).eraseToAnyPublisher()
-        }
-        
-        return self.request(request: request, response: BookResponse.self)
+            let request = createRequest(from: BookFinderAppRequest.getBook(title, page))
+        else { completion(nil, .invalidRequest); return }
+        return self.request(request: request, response: BookResponse.self, completion: completion)
     }
 }
